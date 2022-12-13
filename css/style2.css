@@ -36,6 +36,7 @@ ul li .secciónA {
 
 
 
+
 /*Footer*/
 
 footer {
@@ -67,4 +68,8 @@ footer .footer_imagenes {
 footer .footer_imagenes--imagen {
     height: 35px;
     padding-right: 25px;
+}
+
+main {
+    min-height: calc(100vh - 50px - 134px);
 }
