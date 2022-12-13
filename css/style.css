@@ -1,0 +1,65 @@
+header{
+color:white;
+background-color:gray;
+}
+
+body{
+font-family:Arial;
+}
+
+title{
+font-style:italic;
+}
+
+footer{
+font-variant:small-caps;
+}
+
+footer{
+font-size:large;
+}
+
+footer{
+color:red; 
+background-color:white;
+}
+
+#intro { color: rgb(0, 153, 200);
+background-color: #ffffff;
+}
+
+.first{
+font-size: 120%;
+}
+
+footer {
+background-color:rgb(255, 182, 193);
+}
+
+ol {
+border-style: solid;
+border-top-width: 5px;
+border-bottom-width: 5px;
+border-bottom-style: dashed;
+border-left-style: dashed;
+border-right-style: dashed;
+border-top-style: dashed;
+padding-bottom: 10px;
+font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+#onichan{
+margin-top: 33px;
+font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+li {
+margin-top: 20px;
+}
+
+em{ 
+color: rgb(255, 0, 0);  
+background-color:white;
+font-family: 'Times New Roman', Times, serif;
+font-size: 200%;
+} /*he utilizado este comando de esta manera para enfatizar las palabras que quiero recalcar porque tienen un mayor valor en la oración*/
