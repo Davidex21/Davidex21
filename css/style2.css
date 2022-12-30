@@ -30,10 +30,37 @@ header .top_header{
     background-color: #fbcc3e;
 }
 
+header .header_derecha {  
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    align-items: center;
+    padding-right: 600px;
+}
+
+header .logo_header {
+    display: flex;
+    justify-content: center;
+    width: 130px;
+    height: 100px;
+}
+
+header .titulo_header{
+    display: flex;
+    align-items: center;
+    padding-bottom: 10px;
+    padding-left: 30px;
+    padding-right: 150px;
+    font-size: 4.5rem;
+    font-style: normal;
+    font-weight: 700;
+    color: #090000;
+}
+
 header .lista_header{
     font-weight: 600;
-    font-size: 190%;
-    padding-right: 20px;
+    font-size: 200%;
+    padding-right: 30px;
     padding-top: 30px;
     display: flex;
     flex-direction: row;
@@ -43,9 +70,9 @@ header .lista_header{
 
 ul li .secciónA {
     display: flex;
-    padding-right: 40px;
-    font-weight: 600;
-    font-size: 2rem;
+    padding-right: 60px;
+    font-weight: 500;
+    font-size: 2.3rem;
     color: #ffffff;
     text-decoration: none;
 }
@@ -95,6 +122,16 @@ main #column_B{
     padding-right: 15px;
 }
 
+main .tablita {
+    width: 100%;
+    height: auto;
+    border: 2px solid black;
+    border-radius: 15px;
+    background-color: #f1eeed;
+    padding-bottom: 10px;
+}
+
+
 p{
     padding-top: 15px;
     font-size:15px;
@@ -134,7 +171,6 @@ footer .footer_imagenes {
 }
 
 footer .footer_imagenes--imagen {
-    height: 35px;
-    padding-right: 10px;
+    height: 40px;
+    padding-right: 20px;
 }
-
