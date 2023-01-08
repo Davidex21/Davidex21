@@ -90,6 +90,8 @@ main .uwu{
 }
 
 main {
+    display: flex;
+    flex-direction: column;
     min-height: calc(100vh - 162px);
 }
 
@@ -129,13 +131,24 @@ main #column_B{
     width: 50%;
     padding-left: 7px;
     padding-right: 15px;
+} 
+
+main .main_container{
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
 }
 
+section{
+    width: 80%;
+}
+
+aside{
+    width: 20%;
+}
 main .magikarp1 {
-    display: flex;
-    justify-content: flex-end;
-    width: 90%;
-    max-width: 250px;
+    margin: auto;
+    width: 75%;
     box-shadow: 2px 2px 5px;
     border-radius: 10px;
     margin-bottom: 10px;
@@ -174,7 +187,23 @@ main .cell_a {
     font-weight: 450;
 }
 
+main .magisad{
+    width: 200px;
+    align-self: center;
+    border-radius: 20px;
+}
+
+h1{
+    font-size: 200%;
+    padding-left: 10px;
+    padding-top: 10px;
+    font-weight: bold;
+    font-style: italic;
+    text-decoration: underline;
+}
+
 p{
+    padding-left: 10px;
     padding-top: 18px;
     font-size:17px;
 }
