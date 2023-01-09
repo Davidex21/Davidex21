@@ -1,7 +1,9 @@
+/*Estilos de la página, en un único css*/
+
 *{
     box-sizing: border-box;
     padding: 0;
-    margin: 0;
+    margin: 0; /*para aprovechar la mayor cantidad de espacio de la página*/
 }
 
 html {
@@ -10,8 +12,8 @@ html {
     font-size: 62.5%;
     font-family:Trebuchet MS, Arial, Helvetica, sans-serif;
     background-color: #FFFAD9;
-    box-shadow: 0.1em 0.1em 1em #ffca2b;
-    border: 1px solid #FFCA2B;
+    box-shadow: 0.1em 0.1em 1em #ffca2b; /*em es una unidad relativa*/
+    border: 1px solid #FFCA2B; /*px es una unidad absoluta*/
 }
 
 
@@ -32,7 +34,7 @@ header .top_header{
 
 header .header_derecha {  
     display: flex;
-    justify-content:flex-start;
+    justify-content: flex-start;
     width: 100%;
     align-items: center;
     padding-left: 40px;
@@ -51,7 +53,7 @@ header .titulo_header{
     padding-bottom: 10px;
     padding-left: 30px;
     padding-right: 150px;
-    font-size: 4.5rem;
+    font-size: 4.5rem; /*rem es una unidad relativa*/
     font-style: normal;
     font-weight: 700;
     color: #090000;
@@ -92,7 +94,7 @@ main .uwu{
 main {
     display: flex;
     flex-direction: column;
-    min-height: calc(100vh - 162px);
+    min-height: calc(100vh - 162px); /*para calcular el espacio del main en la página*/
 }
 
 main .columnas{
@@ -140,12 +142,13 @@ main .main_container{
 }
 
 section{
-    width: 80%;
+    width: 78%;
 }
 
 aside{
-    width: 20%;
+    width: 22%;
 }
+
 main .magikarp1 {
     margin: auto;
     width: 75%;
@@ -206,6 +209,23 @@ p{
     padding-left: 10px;
     padding-top: 18px;
     font-size:17px;
+}
+
+main .info{
+    width: auto;
+}
+
+main #titulito{
+    font-size: 190%;
+    font-weight: bold;
+    text-decoration: underline;
+    font-style: italic;
+}
+
+main #proceso{
+    text-align: center;
+    width: 100%;
+    font-size: 400%;
 }
 
 
